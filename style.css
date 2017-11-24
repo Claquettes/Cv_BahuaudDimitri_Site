@@ -7,6 +7,7 @@ body {
 h1 {
     color: #FAF1DE;
     font-family: 'Bowlby One SC', cursive;
+    font-weight: 100;
     font-size: 100px;
     line-height: 40px;
     margin-top: 65px;
@@ -29,8 +30,16 @@ h4 {
     color: #E95E5E;
 }
 
+h5 {
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #E95E5E;
+}
+
+
 p {
     font-family: 'Hind Siliguri', sans-serif;
+    font-size: 23px;
+    color: #5C4A51;
 }
 
 /*///////////////////////////
@@ -216,9 +225,7 @@ li {
 /////////////////////////////
 ///////////////////////////*/
 
-
-
-#comp{
+#comp {
     background-color: #F7E8CC;
     height: 1000px;
     padding-left: 350px;
@@ -233,7 +240,7 @@ li {
     font-weight: 900;
 }
 
-#comp h3{
+#comp h3 {
     position: relative;
     margin-top: 32px;
     text-align: right;
@@ -241,29 +248,29 @@ li {
     font-size: 25px;
     line-height: 0px;
     display: inline-block;
-    float:right;
+    float: right;
 }
 
 
-#comp h4{
+#comp h4 {
     text-align: right;
     color: #5C4A51;
     font-size: 15px;
-   float:right;
+    float: right;
     margin-top: -28px;
 }
 
-#comp h4:nth-of-type(1){
-        padding-top: 50px;
+#comp h4:nth-of-type(1) {
+    padding-top: 50px;
 }
 
 
-.comp li{
-    left:350px;
+.comp li {
+    left: 350px;
     position: relative;
     margin-right: 5px;
     margin-top: 8px;
-    float:left;
+    float: left;
     display: inline-block;
     width: 18px;
     height: 18px;
@@ -273,23 +280,271 @@ li {
 
 
 
-.categories{
+.categories {
     margin-bottom: 80px;
-    float:left;
+    float: left;
 }
 
 
-.separation{
-    
+.separation {
+
     width: 380px;
     height: 500px;
     position: relative;
     display: inline-block;
 }
 
-.une-comp{
+.une-comp {
     width: 350px;
     height: 30px;
     display: inline-block
 }
 
+
+
+
+/*///////////////////////////
+/////////////////////////////
+/////////////////////////////          Expériences
+/////////////////////////////
+///////////////////////////*/
+
+#exp {
+    height: 1300px;
+    padding-left: 350px;
+
+}
+
+#exp h2 {
+    margin-top: 130px;
+    margin-left: 420px;
+    color: #E85E5E;
+    font-size: 50px;
+    font-family: 'Indie Flower';
+    font-weight: 900;
+}
+
+#exp h3 {
+    color: #43363A;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: -45px;
+}
+
+#exp h5 {
+    color: #43363A;
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: -7px;
+}
+
+#exp p {
+    color: #5C4A51;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+
+#exp img {
+    margin-top: -100px;
+    top: 100px;
+    position: relative;
+}
+
+
+.ligne {
+    width: 10px;
+    height: 120px;
+    color: #E85E5E;
+}
+
+.separation1 {
+    width: 500px;
+    text-align: right;
+    display: inline-block;
+}
+
+.separation2 {
+    width: 500px;
+    display: inline-block;
+}
+
+#subway {
+    position: relative;
+    margin-top: -200px;
+}
+
+#modulimage {
+    position: relative;
+    top: -232px;
+}
+
+#wlch {
+    position: relative;
+    top: -72px;
+}
+
+#ddb {
+    position: relative;
+    top: -177px;
+}
+
+#rds {
+    position: relative;
+    top: 11px;
+}
+
+#lmyr {
+    position: relative;
+    top: -102px;
+}
+
+#goubault {
+    position: relative;
+    top: 42px;
+}
+
+
+
+
+/*///////////////////////////
+/////////////////////////////
+/////////////////////////////          Contact
+/////////////////////////////
+///////////////////////////*/
+
+#mpmoi {
+    background-color: #F7E8CC;
+    height: 1000px;
+    padding-left: 350px;
+}
+
+
+.retlign {
+    width: 400px;
+}
+
+
+#mpmoi h2 {
+    position: relative;
+    top: 150px;
+    color: #E85E5E;
+    font-size: 50px;
+    font-family: 'Indie Flower';
+    font-weight: 900;
+}
+
+
+#mpmoi p {
+    position: relative;
+    top: 130px;
+
+}
+
+#mpmoi img {
+    width: 35px;
+    display: block;
+    position: relative;
+    top: 150px;
+    margin-top: 28px;
+    margin-left: -55px;
+}
+
+#mpmoi h4 {
+
+    position: relative;
+    line-height: 35px;
+    margin-top: -20px;
+    top: 13px;
+    color: #E95E5E;
+    font-size: 30px;
+    display: inline-block;
+}
+
+
+#formulaire {
+    color: #5C4A51;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+    width: 900px;
+    position: absolute;
+    top: 4445px;
+    left: 1000px;
+}
+
+#formulaire input {
+    background-color: #FAF1DE;
+    width: 600px;
+    height: 40px;
+    font-size: 20px;
+    position: relative;
+    margin-right: 10px;
+}
+
+
+#courriel input {
+    width: 700px;
+}
+
+
+
+#formulaire textarea {
+    background-color: #FAF1DE;
+    width: 600px;
+    height: 500px;
+}
+
+
+
+input,
+button,
+submit,
+textarea {
+    border: 1px #5C4A51;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    color: #5C4A51;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 20px;
+}
+
+button {
+    background: none;
+    position: absolute;
+    background-color: #E95E5E;
+    color: #FAF1DE;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-radius: 100px;
+}
+
+button:hover{
+    background-color: #5C4A51;
+    background-color: #43363A;
+    -webkit-transition: width 0.5s, height 0.5s, background-color 0.5s, -webkit-transform 0.5s;
+    transition: width 0.5s, height 0.5s, background-color 0.5s;
+}
+
+/*///////////////////////////
+/////////////////////////////
+/////////////////////////////          Contact
+/////////////////////////////
+///////////////////////////*/
+
+
+#footer{
+    height: 70px;
+    background-color: #E95E5E;
+    text-align: center;
+
+}
+
+
+#footer p{
+    color: #FAF1DE;
+    font-size: 15px;
+    position: relative;
+    top:25px;
+}
