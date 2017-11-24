@@ -115,7 +115,7 @@ li {
 ///////////////////////////*/
 
 #home {
-    height: 800px;
+    height: 780px;
     margin: 0px;
     padding: 0px;
     overflow: hidden;
@@ -175,6 +175,46 @@ li {
 }
 
 
+
+/*///////////////////////////
+/////////////////////////////
+/////////////////////////////          Présentation
+/////////////////////////////
+///////////////////////////*/
+
+#pres {
+    position: relative;
+    left: 100px;
+    margin-top: 60px;
+    margin-left: 350px;
+    width: 100px;
+    height: 210px;
+    
+}
+
+#pres h2 {
+    position: absolute;
+    left: -150px;
+    margin-top: -20px;
+    color: #E85E5E;
+    font-size: 70px;
+    font-family: 'Indie Flower';
+    font-weight: 900;
+    
+}
+
+#pres p {
+    text-align: justify;
+    line-height: 25px;
+    margin-top: -20px;
+    width: 900px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    position: relative;
+    left: 120px;
+}
+
+
 /*///////////////////////////
 /////////////////////////////
 /////////////////////////////          Bouton
@@ -189,7 +229,7 @@ li {
     height: 150px;
     text-align: center;
     left: 760px;
-    top: 1205px;
+    top: 1000px;
     border-radius: 5px;
     transition: 0.5s;
 }
@@ -214,39 +254,6 @@ li {
 }
 
 
-/*///////////////////////////
-/////////////////////////////
-/////////////////////////////          Présentation
-/////////////////////////////
-///////////////////////////*/
-
-#pres {
-    position: relative;
-    left: 100px;
-    margin-top: 60px;
-    margin-left: 350px;
-    width: 1000px;
-    height: 380px;
-}
-
-#pres h2 {
-    text-align: center;
-    color: #E85E5E;
-    font-size: 50px;
-    font-family: 'Indie Flower';
-    font-weight: 900;
-}
-
-#pres .text {
-    margin-top: -20px;
-    width: 1000px;
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 80px;
-}
-
-
-
 
 /*///////////////////////////
 /////////////////////////////
@@ -256,7 +263,7 @@ li {
 
 #comp {
     background-color: #F7E8CC;
-    height: 1000px;
+    height: 650px;
     padding-left: 390px;
 }
 
@@ -330,6 +337,10 @@ li {
 }
 
 
+.une-comp:hover{
+    
+}
+
 
 
 /*///////////////////////////
@@ -341,16 +352,20 @@ li {
 #exp {
     height: 1300px;
     padding-left: 350px;
+    
 
 }
 
 #exp h2 {
-    margin-top: 130px;
-    margin-left: 420px;
+    margin-top: 60px;
+    margin-left: 0px;
     color: #E85E5E;
     font-size: 50px;
     font-family: 'Indie Flower';
     font-weight: 900;
+    width: 100px;
+    display: inline-block;
+    position: absolute;
 }
 
 #exp h3 {
@@ -376,16 +391,19 @@ li {
 
 
 #exp img {
-    margin-top: -100px;
+    margin-top: -30px;
     top: 100px;
     position: relative;
 }
 
 
 .ligne {
+   
+   
     width: 10px;
     height: 120px;
     color: #E85E5E;
+    top: -2000px;
 }
 
 .separation1 {
@@ -444,8 +462,8 @@ li {
 ///////////////////////////*/
 
 #mpmoi {
-    background-color: #F7E8CC;
-    height: 1000px;
+    background-color: #5C4A51;
+    height: 820px;
     padding-left: 350px;
 }
 
@@ -454,11 +472,14 @@ li {
     width: 400px;
 }
 
+#retlign2{
+    width: 200px;
+}
 
 #mpmoi h2 {
     position: relative;
-    top: 150px;
-    color: #E85E5E;
+    top: 60px;
+    color: #FAF1DE;
     font-size: 50px;
     font-family: 'Indie Flower';
     font-weight: 900;
@@ -466,74 +487,121 @@ li {
 
 
 #mpmoi p {
+    color: #FAF1DE;
     position: relative;
-    top: 130px;
+    top: 60px;
 
 }
 
-#mpmoi img {
-    width: 35px;
+#mpmoi img{
+    width: 18px;
     display: block;
     position: relative;
-    top: 150px;
+    top: 102px;
     margin-top: 28px;
-    margin-left: -55px;
+    margin-left: -30px;
+}
+
+#mpmoi img:nth-of-type(2){
+    top: 84px;
+}
+
+#mpmoi img:nth-of-type(3){
+    top: 81px;
 }
 
 #mpmoi h4 {
-
+    
     position: relative;
-    line-height: 35px;
-    margin-top: -20px;
-    top: 13px;
-    color: #E95E5E;
-    font-size: 30px;
+    line-height: 0px;
+    margin-top: -180px;
+    margin-bottom: 15px;
+    color: #FAF1DE;
+    font-size: 20px;
+    font-weight: 400;
     display: inline-block;
+}
+
+#mpmoi h4:nth-of-type(2){
+    margin-bottom: 35px;
 }
 
 
 #formulaire {
-    color: #5C4A51;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 20px;
     width: 500px;
     position: absolute;
-    top: 4445px;
+    top: 3150px;
     left: 1000px;
+    
 }
 
+
 #formulaire input {
-    background-color: #FAF1DE;
-    width: 600px;
+    left: 120px;
+    width: 350px;
     height: 40px;
     font-size: 20px;
     position: relative;
     margin-right: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: #5C4A51;
+    border: 0px;
+    border-bottom: 2px solid #FAF1DE;
+    transition: 0.5s;
 }
 
+#formulaire input:focus{
+    width: 600px;
+    left: 0px;
+    transition: 0.5s;
+    outline: 0;
+}
 
 #courriel input {
     width: 700px;
+    
 }
 
+
+#nom placeholder{
+    color: aqua;
+}
 
 
 #formulaire textarea {
-    background-color: #FAF1DE;
     width: 600px;
-    height: 500px;
+    height: 400px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #FAF1DE;
+}
+
+#formulaire textarea:focus{
+    outline: 0;
+    color: #5C4A51;
 }
 
 
+input:placeholder-shown{
+    color: #FAF1DE;
+}
+
+input::placeholder{
+  color: #FAF1DE;
+}
+
+input{
+    color:#FAF1DE;
+}
 
 input,
 button,
 submit,
 textarea {
-    border: 1px #5C4A51;
     margin-bottom: 10px;
-    padding-left: 10px;
-    color: #5C4A51;
     font-family: 'Hind Siliguri', sans-serif;
     font-size: 20px;
 }
@@ -541,22 +609,26 @@ textarea {
 button {
     background: none;
     position: absolute;
-    color: #E95E5E;
+    color: #FAF1DE;
     left: 145px;
     width: 300px;
     height: 40px;
     text-align: center;
     border-radius: 5px;
     border-style: solid;
-    border-color: #E95E5E;
+    border-color: #FAF1DE;
     transition: 0.5s;
 }
 
 button:hover {
-    background-color: #E95E5E;
+    background-color: #FAF1DE;
     border-radius: 100px;
-    color: #FAF1DE;
+    color: #5C4A51;
     transition: 0.5s;
+}
+
+button:focus{
+    outline: 0;
 }
 
 /*///////////////////////////
@@ -569,7 +641,7 @@ button:hover {
     height: 70px;
     background-color: #E95E5E;
     text-align: center;
-
+    margin-top: -20px;
 }
 
 
